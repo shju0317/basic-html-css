@@ -1,1 +1,33 @@
 /* CSS 선택자(Selector) */
+
+/* 전체 선택자 */
+*{
+  color: inherit;
+}
+
+/* 태그 선택자 */
+body {
+  margin: 0;
+  font-family: "SUIT";
+  font-weight: 300;
+  background-color: cornflowerblue;
+  color: #fff;
+  /* color: rgba(255,0,0, 0.5); */
+  /* color: hsla(hue, saturation, lightness, alpha) */
+}
+
+/* 클래스 선택자 */
+.fancy {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px #77f;
+}
+
+ul.menu{
+	margin: 0;
+	padding-left: 0;
+}
+
+/* 아이디 선택자 */
+#demo {
+  border: red 2px solid;
+}
