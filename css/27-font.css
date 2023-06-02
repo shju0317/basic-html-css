@@ -4,16 +4,21 @@ html{
 
 body{
   font-size: 1.5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Pangolin', cursive;
+  font-family: 'Sunflower', sans-serif;
 }
 
 h1{
   font-size: 2rem;
 }
 
+div{
+  font-size: 4px;
+}
+
 p{
-  font-size: 20px;
   line-height: 1.6;
-  font-weight: 100;
 }
 
